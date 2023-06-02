@@ -1,5 +1,5 @@
+import App from './App.vue';
 import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import VolkiButton from 'volki-button'
 
-createApp(App).mount('#app')
+createApp(App).use(VolkiButton).mount('#app');

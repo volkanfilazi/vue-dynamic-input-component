@@ -5,6 +5,7 @@ const firstName = ref<string>('')
 const lastName = ref<string>('')
 const phone = ref<string>('')
 
+
 </script>
 
 <template>
@@ -13,6 +14,7 @@ const phone = ref<string>('')
       <VInput place-value="firstname" type-value="string" v-if="firstName !== undefined" v-model="firstName"></VInput>
       <VInput id="lastname" place-value="lastname" type-value="string" v-model="lastName"></VInput>
       <VInput id="phone" place-value="phone" type-value="number" v-model="phone"></VInput>
+      <VolkiButton>asdas</VolkiButton>
     <div class="text-white">
       <p v-if="firstName">firstname: {{ firstName }}</p>
       <p v-if="lastName">lastname: {{ lastName }}</p>
