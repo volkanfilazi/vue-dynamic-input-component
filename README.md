@@ -13,3 +13,13 @@ The component is implemented with Vue.js's reactive system, leveraging computed 
 Whether you need a dynamic text input, number input, or password input, the "vue-dynamic-input-component" simplifies the process and empowers developers to create interactive and responsive user interfaces. Enhance your Vue.js projects with this versatile input component and streamline the data input process with ease.
 
 It also allows you to design an input once and use it in multiple places.
+
+## Example
+``` 
+<VInput 
+place-value="firstname" 
+type-value="string" 
+v-if="firstName !== undefined" 
+v-model="firstName">
+</VInput> 
+```
